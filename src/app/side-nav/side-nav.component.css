@@ -1,0 +1,25 @@
+#sidenav-wrapper {
+  height: 110%;
+  width: 10rem;
+  font-size: 10px;
+  padding-left: 1rem;
+  border-right: 2px solid grey;
+  z-index: 2;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+h6 {
+  font-size: 12px;
+}
+
+.sidenav li {
+  list-style-type: none;
+  position: relative;
+  left: -38%;
+  padding: 1em 0;
+}
+
+.sidenav li a {
+  text-decoration: none;
+  color: black;
+}
