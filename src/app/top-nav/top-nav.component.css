@@ -1,0 +1,27 @@
+nav {
+  border-bottom: 1px solid #f5a623;
+  width: 100%;
+  text-decoration: none;
+}
+
+
+nav .navigation-links {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  position: relative;
+  left: 48%;
+
+
+}
+
+.navigation-links li {
+  margin: 0 1rem -1em 1rem;
+  padding: 0;
+}
+
+.dropdown-menu li {
+  padding: 0;
+  margin: 0;
+}
