@@ -53,3 +53,37 @@
   text-decoration: none;
   color: white;
 }
+
+
+/* search */
+.search {
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.searchbar {
+  width: 50%;
+  display: flex;
+  margin: 0;
+  flex-direction: row;
+}
+
+#search-input {
+  font-size: 12px;
+  width: 120%;
+}
+
+.searchbar #searchForm .submit {
+  font-size: 12px;
+  position: relative;
+  left: 20%;
+  top: -15%;
+}
+
+#searchForm {
+  display: flex;
+  flex-direction: row;
+
+}

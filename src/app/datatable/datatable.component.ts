@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DatatableComponent implements OnInit {
   hasData = true;
+  searchTerm = '';
+
   datas = [{
     batchId: '1234567',
     fileName: 'myfile.xlsx',
@@ -69,6 +71,10 @@ export class DatatableComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+  }
+
+  searchRecords(searchTerm) {
+    //do something here
   }
 
 }
