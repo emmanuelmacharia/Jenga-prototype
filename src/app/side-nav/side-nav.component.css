@@ -17,7 +17,7 @@ h6 {
   list-style-type: none;
   position: relative;
   left: -38%;
-  padding: 1em 0;
+  padding: .5rem 0;
 }
 
 .sidenav li a {

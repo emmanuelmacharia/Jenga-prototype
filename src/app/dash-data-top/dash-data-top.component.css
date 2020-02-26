@@ -1,0 +1,40 @@
+.summary-header {
+  padding-left: 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.money-summary {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.money-summary h5 {
+  font-size: larger;
+  margin: 0.5rem 1rem 0.5rem 0;
+}
+
+.money-summary span {
+  font-size: small;
+  margin: 0.9rem 0 0 0;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.17px;
+  color: #8251ab;
+}
+
+
+.dates {
+  font-size: small;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+  border: solid 1px #f6f6f6;
+  background-color: #ffffff;
+  margin-right: 3%;
+  border-radius: 21px;
+  padding: .5rem 1.5rem 0 1.5rem;
+}
