@@ -1,0 +1,17 @@
+.container table {
+  font-size: 12px;
+  width: 100%;
+}
+
+.container table .table-head {
+  border: solid 1px #f6f6f6;
+  background-color: #f1f1f1;
+}
+
+.container table tr th {
+  margin: 1rem;
+  font-weight: 100;
+  text-align: center;
+}
+
+
