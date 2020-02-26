@@ -9,6 +9,8 @@ import { DataCardComponent } from './data-card/data-card.component';
 import { DataCardNavComponent } from './data-card-nav/data-card-nav.component';
 import { DatatableComponent } from './datatable/datatable.component';
 import { PopulatedExpComponent } from './populated-exp/populated-exp.component';
+import { DashboardDatacardNavComponent } from './dashboard-datacard-nav/dashboard-datacard-nav.component';
+import { DashboardNavDatacard2Component } from './dashboard-nav-datacard2/dashboard-nav-datacard2.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { PopulatedExpComponent } from './populated-exp/populated-exp.component';
     DataCardComponent,
     DataCardNavComponent,
     DatatableComponent,
-    PopulatedExpComponent
+    PopulatedExpComponent,
+    DashboardDatacardNavComponent,
+    DashboardNavDatacard2Component
   ],
   imports: [
     BrowserModule,
