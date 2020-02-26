@@ -8,5 +8,28 @@
       <th>PAYEE</th>
       <th>ACTION</th>
     </tr>
+    <tbody *ngIf="hasData; else elseBlock">
+      <tr *ngFor="let d of datas" class="table-body">
+        <td>{{d.batchId}}</td>
+        <td>{{d.fileName}}</td>
+        <td>{{d.payplan}}</td>
+        <td>{{d.uploadDate}}</td>
+        <td>{{d.payees}}</td>
+        <td>{{d.action}}</td>
+      </tr>
+    </tbody>
+    <ng-template #elseBlock>
+      <tbody class="no-data">
+        <tr>
+          <td colspan="6">
+            <span class="message-result">No results found</span>
+            <p>Send out payment links or process card payments in bulk. Upload a file containing all payment information
+              and
+              accept payments with ease</p>
+            <a href="#" class="purple-button">Start Uploading</a>
+          </td>
+        </tr>
+      </tbody>
+    </ng-template>
   </table>
 </div>

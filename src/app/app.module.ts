@@ -8,6 +8,7 @@ import { SideNavComponent } from './side-nav/side-nav.component';
 import { DataCardComponent } from './data-card/data-card.component';
 import { DataCardNavComponent } from './data-card-nav/data-card-nav.component';
 import { DatatableComponent } from './datatable/datatable.component';
+import { PopulatedExpComponent } from './populated-exp/populated-exp.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { DatatableComponent } from './datatable/datatable.component';
     SideNavComponent,
     DataCardComponent,
     DataCardNavComponent,
-    DatatableComponent
+    DatatableComponent,
+    PopulatedExpComponent
   ],
   imports: [
     BrowserModule,

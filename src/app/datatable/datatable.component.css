@@ -1,6 +1,8 @@
 .container table {
   font-size: 12px;
   width: 100%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .container table .table-head {
@@ -14,4 +16,40 @@
   text-align: center;
 }
 
+.container table tbody .table-body,
+.no-data {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.02);
+}
 
+.container table tbody .table-body td {
+  padding: 0.5rem 0;
+}
+
+.container table tbody .table-body td :nth-last-child(2) {
+  padding-bottom: 2rem;
+}
+
+
+.container table .no-data tr td {
+  padding: 5rem 0;
+}
+
+.container table .no-data tr td .message-result {
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #bbbbbb;
+}
+
+.container table .no-data tr td p {
+  padding: 4rem 0 3rem 0;
+}
+
+.container table .no-data tr td .purple-button {
+  background-color: #603b80;
+  padding: 0.6rem 1rem;
+  border: 1px solid #603b80;
+  border-radius: 21px;
+  text-decoration: none;
+  color: white;
+}
