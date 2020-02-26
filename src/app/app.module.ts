@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { TopNavComponent } from './top-nav/top-nav.component';
 import { SideNavComponent } from './side-nav/side-nav.component';
 import { DataCardComponent } from './data-card/data-card.component';
+import { DataCardNavComponent } from './data-card-nav/data-card-nav.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopNavComponent,
     SideNavComponent,
-    DataCardComponent
+    DataCardComponent,
+    DataCardNavComponent
   ],
   imports: [
     BrowserModule,
