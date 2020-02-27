@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { ChartsModule } from 'ng2-charts';
 
 import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -15,6 +16,8 @@ import { BackgroundComponentComponent } from './background-component/background-
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { DashboardDatacardComponent } from './dashboard-datacard/dashboard-datacard.component';
 import { DashDataTopComponent } from './dash-data-top/dash-data-top.component';
+import { DashboardDatacardBottomComponent } from './dashboard-datacard-bottom/dashboard-datacard-bottom.component';
+import { DashDataBottomComponent } from './dash-data-bottom/dash-data-bottom.component';
 
 @NgModule({
   declarations: [
@@ -32,10 +35,13 @@ import { DashDataTopComponent } from './dash-data-top/dash-data-top.component';
     BackgroundComponentComponent,
     DashboardDatacardComponent,
     DashDataTopComponent,
+    DashboardDatacardBottomComponent,
+    DashDataBottomComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,32 @@
+.card-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.card-navigation :nth-child(1) {
+  margin-left: -3%;
+}
+
+.card-nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-navigation .card-nav li {
+  list-style-type: none;
+  margin: 1rem 1rem;
+
+}
+
+.card-navigation .card-nav li a {
+  text-decoration: none;
+  color: #888888;
+  padding: 0.3rem 0.7rem;
+}
+
+.card-nav li :hover {
+  border: 1px solid #603b80;
+  border-radius: 21px;
+}
