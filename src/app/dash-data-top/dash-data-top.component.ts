@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ChartDataSets, ChartOptions, Chart } from 'chart.js';
-import { Color, Label } from 'ng2-charts';
-// import * as CanvasJS from 'E:/projects/source/repos/equity/equity-frontend-task/node_modules/canvasjs';
+import { Chart } from 'chart.js';
 
 @Component({
   selector: 'app-dash-data-top',
@@ -53,34 +51,4 @@ export class DashDataTopComponent implements OnInit {
       }
     }));
   }
-
-
-
-  // ngOnInit() {
-  //   // this.LineChart.push(new Chart('lineChart', {
-  //   //   type: 'line',
-  //   //   data: {
-  //   //     labels: ['Jun 2', 'Jun 3', 'Jun 4', 'Jun 5', 'Jun 6', 'Jun 7', 'Jun 8'],
-  //   //     datasets: [{
-  //   //       label: '',
-  //   //       data: [0, 4, 11, 17, 12, 7, 25],
-  //   //       fill: false,
-  //   //       lineTension: 0.2,
-  //   //       borderColor: '#d6d6d6',
-  //   //       borderWidth: 2
-  //   //     }]
-  //   //   },
-  //   //   options: {
-  //   //     title: {
-  //   //       text: 'Analytics',
-  //   //       display: false
-  //   //     },
-  //   //     scales: {
-  //   //       yAxes: [{
-  //   //         ticks: { beginAtZero: true }
-  //   //       }]
-  //   //     }
-  //   //   }
-  //   // }));
-  // }
 }

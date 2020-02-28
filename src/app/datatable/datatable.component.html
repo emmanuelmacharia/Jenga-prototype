@@ -1,13 +1,14 @@
 <div class="container">
   <section class="search">
     <div class="searchbar">
-      <form id="searchForm" class="input-search">
-        <div class="form-group">
+      <form id="searchForm" class="input-search" [formGroup]="searchForm" (ngSubmit)="searchRecords(searchTerm)"
+        novalidate>
+        <div class="form-group" formGroupName="searchTerm" novalidate>
           <input type="text" name="searchTerm" id="search-input" class="form-control"
-            placeholder="Search by bulk ID or filename" />
+            placeholder="Search by bulk ID or filename" formControlName="keyWord" />
         </div>
         <button class='btn btn-default submit' type="submit">Search</button>
-        <button class='btn btn-default submit clear'>Clear</button>
+        <button class='btn btn-default submit clear' (click)="revert()" [disabled]="searchForm.pristine">Clear</button>
       </form>
     </div>
     <div class="docs">Documentation</div>
