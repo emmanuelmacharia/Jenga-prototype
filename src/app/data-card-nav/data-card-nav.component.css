@@ -19,10 +19,19 @@
   margin: 1rem 1rem;
 }
 
-.card-navigation .card-nav li a {
+.card-navigation .card-nav li button {
   text-decoration: none;
-  color: black;
+  color: white;
   padding: 0.3rem 0.7rem;
+  border: none;
+  background: none;
+}
+
+.card-navigation .card-nav li button :focus,
+.card-navigation .card-nav li button :active {
+  border: none;
+  outline: hidden;
+  box-shadow: none;
 }
 
 .card-nav li :hover {
@@ -39,4 +48,10 @@
   position: relative;
   top: -0.3rem;
   color: white !important;
+}
+
+.myModal {
+  display: none;
+  position: fixed;
+  z-index: 12;
 }

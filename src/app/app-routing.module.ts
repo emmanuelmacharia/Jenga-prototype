@@ -6,7 +6,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 
 const routes: Routes = [
   { path: 'overview', component: DashboardComponent },
-  { path: 'bulkpayments', component: DataCardComponent }
+  { path: 'bulkpayments', component: DataCardComponent },
+  { path: '', redirectTo: '/overview', pathMatch: 'full' },
 ];
 
 @NgModule({

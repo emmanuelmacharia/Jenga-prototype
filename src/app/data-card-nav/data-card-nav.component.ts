@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Renderer2 } from '@angular/core';
 
 @Component({
   selector: 'app-data-card-nav',
@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DataCardNavComponent implements OnInit {
 
-  constructor() { }
+  constructor( private renderer: Renderer2) { }
 
   ngOnInit() {
   }
 
+  showModal($event) {
+    $event.preventDefault();
+    console.log($event);
+  }
 }

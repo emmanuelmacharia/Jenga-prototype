@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ModalLogicService } from '../modal-logic.service';
 
 @Component({
   selector: 'app-data-card',
@@ -7,9 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DataCardComponent implements OnInit {
 
-  constructor() { }
+  constructor(private service: ModalLogicService) { }
 
   ngOnInit() {
+    this.service.clicked.subscribe(value => console.log(`here's the service value returned ${value}`));
   }
 
 }

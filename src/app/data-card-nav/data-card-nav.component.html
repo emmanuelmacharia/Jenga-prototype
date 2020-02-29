@@ -22,8 +22,13 @@
         <a href="#">Download Sample file</a>
       </li>
       <li class="purple-button">
-        <a href="#">Upload file</a>
+        <button id="trigger-modal" (click) = "showModal($event)">Upload file</button>
       </li>
     </ul>
   </div>
 </nav>
+
+<div class="myModal">
+  <span>&times;</span>
+  <p>some modal text</p>
+</div>
