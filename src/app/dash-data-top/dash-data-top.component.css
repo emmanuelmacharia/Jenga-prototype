@@ -46,7 +46,7 @@
 
 #myChart {
   height: 40vh;
-  width: 80%;
+  width: calc(90%);
 }
 
 .orders-and-revenue,

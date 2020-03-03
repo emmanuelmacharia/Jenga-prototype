@@ -1,8 +1,10 @@
 <div class="my-container">
   <app-top-nav></app-top-nav>
-  <div class="row" style="height:110%;">
-    <app-side-nav class="col-md-3"></app-side-nav>
-    <router-outlet></router-outlet>
+  <div class="row main-body-div" style="height:110%;">
+    <app-side-nav class="col-md-2"></app-side-nav>
+    <section class="main">
+      <router-outlet></router-outlet>
+    </section>
     <div class="get-help-button">
       <a href="#">Get Help?</a>
     </div>

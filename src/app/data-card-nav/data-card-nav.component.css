@@ -19,6 +19,12 @@
   margin: 1rem 1rem;
 }
 
+.card-navigation .card-nav li a {
+  color: #888888;
+  padding: 0.3rem 0.7rem;
+  text-decoration: none;
+}
+
 .card-navigation .card-nav li button {
   text-decoration: none;
   color: white;

@@ -12,9 +12,7 @@ nav .navigation-links {
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  justify-content: stretch;
-  position: relative;
-  left: 48%;
+  justify-content: flex-end;
 
 
 }
