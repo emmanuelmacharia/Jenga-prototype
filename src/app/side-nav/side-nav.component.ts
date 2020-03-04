@@ -7,7 +7,7 @@ import { Component, OnInit, HostListener } from '@angular/core';
 })
 export class SideNavComponent implements OnInit {
 
-  showSideNav = false;
+  showSideNav = true;
 
 
   @HostListener('window:resize', ['$event'])
