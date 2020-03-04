@@ -6,6 +6,7 @@
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
   border: solid 1px #eeeeee;
   display: inline-block;
+  align-items: stretch;
 }
 
 .sidenav-card {
@@ -34,8 +35,36 @@ h6 {
 }
 
 
-/* @media screen and (max-width: 1307px) {
-   #sidenav-wrapper {
-    display: none;
+@media screen and (max-width: 768px) {
+  #sidenav-wrapper {
+    width: 100%;
+    height: 10%;
+    display: block;
+    margin-top: -1.5rem;
   }
-} */
+
+  .sidenav-card {
+    width: 30%;
+    vertical-align: middle;
+    margin: 1rem auto;
+  }
+
+  .sidenav-menu {
+    padding: 1rem;
+  }
+
+  .sidenav {
+    width: 30%;
+    margin: auto;
+  }
+
+  .sidenav-headers {
+    width: 30%;
+    margin: 0.5rem auto;
+    font-weight: bold;
+    position: relative;
+    left: -1.3%;
+  }
+
+  
+}

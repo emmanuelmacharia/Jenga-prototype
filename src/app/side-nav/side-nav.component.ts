@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-side-nav',
@@ -7,9 +7,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SideNavComponent implements OnInit {
 
+  showSideNav = false;
+
+
+  @HostListener('window:resize', ['$event'])
+  windowResize(event) {
+    event.target.innerWidth >= 768 ? this.showSideNav = true : this.showSideNav = false;
+    console.log(this.showSideNav);
+  }
+
   constructor() { }
 
   ngOnInit() {
   }
 
+
+  toggleSideNav($event) {
+    this.showSideNav ? this.showSideNav = false : this.showSideNav = true;
+  }
 }

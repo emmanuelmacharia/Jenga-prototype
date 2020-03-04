@@ -22,9 +22,14 @@
 
 .main-body-div {
   overflow: hidden;
-
 }
 
 .main {
   margin: 2rem 3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .main-body-div {
+    display: block;
+  }
 }

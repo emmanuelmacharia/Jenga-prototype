@@ -6,20 +6,18 @@ nav {
   font-size: 1rem;
 }
 
-button {
+.top-menu-button {
   border: 1px solid #f5a623;
   position: relative;
   right: -88%;
+  padding: .5rem;
 }
 
 
 nav .navigation-links ul {
   list-style-type: none;
-  display: flex;
-  justify-self: flex-end;
   position: relative;
-  right: 0;
-  left: 55%;
+  left: 55%
 }
 
 .navigation-links ul li {

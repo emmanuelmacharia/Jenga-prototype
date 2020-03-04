@@ -45,7 +45,7 @@ import { ModalLogicService } from './modal-logic.service';
     BrowserModule,
     AppRoutingModule,
     ChartsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
   ],
   providers: [ModalLogicService],
   bootstrap: [AppComponent]
