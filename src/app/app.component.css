@@ -29,7 +29,15 @@
 }
 
 @media screen and (max-width: 768px) {
+
   .main-body-div {
     display: block;
+  }
+
+  .get-help-button {
+    position: relative;
+    margin: 3.5rem 2rem;
+    width: 20%;
+    left: 63.50%;
   }
 }

@@ -22,7 +22,7 @@ export class SideNavComponent implements OnInit {
   }
 
 
-  toggleSideNav($event) {
+  toggleSideNav() {
     this.showSideNav ? this.showSideNav = false : this.showSideNav = true;
   }
 }
