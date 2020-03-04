@@ -5,6 +5,13 @@
   font-size: 12px;
 }
 
+.top-menu-button {
+  border: 1px solid #f5a623;
+  position: relative;
+  right: -88%;
+  padding: .5rem;
+}
+
 .card-navigation :nth-child(1) {
   margin-left: -3%;
 }
@@ -40,4 +47,12 @@
   position: relative;
   top: -0.3rem;
   color: white !important;
+}
+
+
+@media screen and (max-width: 768px) {
+  .card-nav {
+    position: relative;
+    left: -8%;
+  }
 }

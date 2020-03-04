@@ -19,6 +19,14 @@
   margin: 1rem 1rem;
 }
 
+.top-menu-button {
+  border: 1px solid #f5a623;
+  position: relative;
+  right: -88%;
+  padding: .5rem;
+}
+
+
 .card-navigation .card-nav li a {
   color: #888888;
   padding: 0.3rem 0.7rem;
@@ -60,4 +68,12 @@
   display: none;
   position: fixed;
   z-index: 12;
+}
+
+
+@media screen and (max-width: 768px) {
+  .card-nav {
+    position: relative;
+    left: -8%;
+  }
 }

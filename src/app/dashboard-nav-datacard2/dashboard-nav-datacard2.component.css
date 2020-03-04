@@ -14,6 +14,13 @@
   flex-direction: row;
 }
 
+.top-menu-button {
+  border: 1px solid #f5a623;
+  position: relative;
+  right: -88%;
+  padding: .5rem;
+}
+
 .card-navigation .card-nav li {
   list-style-type: none;
   margin: 1rem 1rem;
@@ -29,4 +36,11 @@
 .card-nav li :hover {
   border: 1px solid #603b80;
   border-radius: 21px;
+}
+
+@media screen and (max-width: 768px) {
+  .card-nav {
+    position: relative;
+    left: -8%;
+  }
 }
