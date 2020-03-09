@@ -9,6 +9,7 @@ export class ModalClick {
   click = false;
 }
 
+@Injectable()
 export class ModalLogicService {
 
   private click = new ModalClick();
